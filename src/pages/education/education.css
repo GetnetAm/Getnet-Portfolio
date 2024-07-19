@@ -1,0 +1,323 @@
+.container{
+    width: 100%;
+    /* max-width: 1536px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+  }
+  
+.about-title{
+    text-align: center;
+    align-items: center;
+}
+.about-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.education-text{
+    margin-left: 10px;
+    text-align: justify;
+}
+.education-text h3{
+    margin-left: 10%;
+    
+
+}
+.education-text p{
+    margin-left: 10px;
+    line-height: 30px;
+    font-size: 19px;
+    font-weight: bold;
+    
+}
+
+
+.edu-experiance{
+    display: flex;
+    flex-wrap: wrap;
+}
+.edu-box span{
+    font-size: 23px;
+}
+.edu-box h3{
+    font-size: 24px;
+}
+
+
+.edu-box p{
+    font-size: 18px;
+    line-height: 30px;
+    width: 80%;
+    padding: 5px;
+    text-align: justify;
+}
+
+.edu-box img{
+    height: 100px;
+    width: 100px;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 50px;
+    background: #deddda;
+    box-shadow:  11px 11px 22px #bdbcb9,
+             -11px -11px 22px #fffefb;
+}
+
+
+
+
+.education .education-content .education-text h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: black;
+    
+}
+
+.education .education-content .education-text h3 span{
+    color: red;
+}
+
+.education .education-content .education-text p{
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
+
+.education .education-content .edu,
+.education .education-content .experience
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+  
+   
+}
+
+.education .education-content .title{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color:black;
+}
+
+.education .education-content .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    
+}
+.education .education-content .timeline{
+    background-color:#fdf9ff;
+    padding: 30px 15px;
+}
+
+
+.education .education-content .timeline .timeline-item{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+}
+
+.education .education-content .timeline .timeline-item:last-child{
+    padding-bottom: 0;
+}
+.education .education-content .timeline .timeline-item::before{
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: red;
+}
+
+
+.education .education-content .timeline .timeline-item .circle-dot{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 600px){
+    .education{
+        width: 500px;
+        background: gold;
+    }
+    .education .education-content .timeline{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .section-title h2{
+        text-align: center;
+    }
+
+    .education-text h3{
+       
+        text-align: center;
+    }
+    .education-text p{
+        margin: 6px;
+        text-align: justify;
+        
+    }
+
+    .edu h3{
+        text-align: center;
+    }
+    .edu-box{
+        text-align: center;
+        margin: 5px;
+    }
+    .edu-box span{
+        font-size: 20px;
+    }
+    .edu-box p{
+        text-align: justify;
+        margin-left: 5px;
+
+    }
+    .experience{
+        margin: 5px;
+    }
+    .experience .title{
+        text-align: center;
+    }
+    .timeline-item{
+        margin: 5px;
+
+    }
+    .timeline{
+        width: 100%;
+    }
+
+    .timeline-date{
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .experience p{
+        text-align: justify;
+    }
+   
+
+} */
+
+
+
+
+@media (max-width:1536px){
+    .container{
+      max-width: 1536px;
+    }
+    
+  
+  }
+  /* @media (max-width:1280px){
+    .container{
+      max-width: 1280px;
+    }
+    
+  } */
+  @media (max-width:1024px){
+    .container{
+      max-width: 1024px;
+    }
+    
+.edu-experiance{
+    display: flex;
+    flex-direction: column;
+}
+.edu{
+
+    width: 100%;
+}
+
+.education .education-content .edu,
+.education .education-content .experience
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* margin-top: 30px; */
+  
+   
+}
+.edu .title{
+    text-align: center;
+}
+.box-container{
+
+    margin-left: 20px;
+}
+
+.experience .title{
+    text-align: center;
+}
+.timeline-box{
+    margin-left: 20px;
+}
+    
+  }
+
+
+
+
+  @media (max-width:768px){
+    .container{
+      max-width: 768px;
+    }
+    
+  }
+  
+  @media (max-width:640px){
+    .container{
+      max-width: 640px;
+    }
+    
+  }
+  @media (max-width:475px){
+    .container{
+      width: 100%;
+    }
+    .about-title h2{ 
+        font-size: 22px;
+       
+    }
+ 
+    .education-text h3{
+        font-size: 20px;
+        text-align: justify;
+       
+    }
+
+ 
+    
+  }
+  
+
+
+
+
+
