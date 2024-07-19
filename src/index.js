@@ -11,7 +11,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter >
+  <BrowserRouter basename='/Getnet-Portfolio'>
   <React.StrictMode>
   <ToastContainer />
   < ScrollToTop />
