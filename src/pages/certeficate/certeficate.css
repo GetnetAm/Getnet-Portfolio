@@ -1,0 +1,197 @@
+
+.container{
+    width: 100%;
+    /* max-width: 1536px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+  }
+  .box-container{
+    display: flex;
+    
+  }
+
+  .skills-title h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  .ceteficate-title h3{
+    font-size: 25px;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  .boxcet img{
+    width: 120px;
+    width: 120px;
+    border: 3px solid dodgerblue;
+    border-radius: 50%;
+  }
+
+  
+  .developer-cert{
+   
+    flex: 0 0 50%;
+    max-width: 50%;
+
+  }
+  .it-cert{
+  
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .boxcet{
+    margin: 20px;
+    width: 80%;
+    padding: 10px;
+
+  }
+
+  .boxcet span{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .boxcet h3{
+    font-size: 23px;
+    
+  }
+
+
+.modal{
+    height: 600px;
+    width: 500px;
+}
+.modal img{
+    height: 400px;
+    width: 500px;
+
+}
+
+
+
+
+   @media (max-width:1536px){
+    .container{
+      max-width: 1536px;
+    }
+    .skills-title h2{
+     
+        font-size: 30px;
+      }
+  
+  }
+  @media (max-width:1280px){
+    .container{
+      max-width: 1280px;
+    }
+    .skills-title h2{
+     
+        font-size: 28px;
+      }
+    
+  }
+  @media (max-width:1024px){
+    .container{
+      max-width: 1024px;
+    }
+    .skills-title h2{
+     
+        font-size: 26px;
+      }
+      .ceteficate-title h3{
+        font-size: 23px;
+        
+      }
+      .boxcet img{
+        width: 120px;
+        width: 120px;
+      
+      }
+    
+  }
+  /* @media (max-width:768px){
+    .container{
+      max-width: 768px;
+    }
+    
+  } */
+  
+  @media (max-width:640px){
+    .container{
+      max-width: 640px;
+    }
+
+    .skills-title h2{
+     
+    font-size: 23px;
+    width: 90%;
+      }
+      .box-container{
+        display: flex;
+        flex-direction: column;
+      }
+      .developer-cert{
+        flex: 0 0 100%;
+        max-width: 100%;
+    
+      }
+      .it-cert{
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      .ceteficate-title h3{
+        font-size: 20px;
+        width: 95%;
+        
+      }
+      .boxcet img{
+        width: 100px;
+        width: 100px;
+      
+      }
+    
+  }
+  @media (max-width:475px){
+    .container{
+      width: 475px;
+    }
+    .skills-title h2{
+     
+        font-size: 20px;
+        width: 90%;
+          }
+          
+          .ceteficate-title h3{
+            font-size: 18px;
+            width: 95%;
+            
+          }
+          .boxcet img{
+            width: 95px;
+            width: 95px;
+          
+          }
+          .modal{
+            height: 350px;
+            width: 300px;
+            position: relative;
+        }
+        .modal img{
+            height: 300px;
+            width: 300px;
+        
+        }
+   
+    
+  }
+  
+
+
+
+
+
+
