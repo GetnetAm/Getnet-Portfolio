@@ -1,0 +1,110 @@
+.container{
+    width: 100%;
+    /* max-width: 1536px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    
+  }
+
+  .footer-content{
+    background-color: rebeccapurple;
+  }
+
+.footer-sidebar{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 100px;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+}
+ul{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+
+}
+   ul li{
+    text-decoration: none !important;
+    list-style: none;
+    
+
+ 
+}
+
+ul li .f-link{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 30px;
+
+}
+
+.footer-social-media .f-icon{
+    font-size: 35px;
+    color: dodgerblue;
+}
+
+
+.copy-right{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+@media (max-width:1536px){
+    .container{
+      max-width: 1536px;
+    }
+  
+  }
+  /* @media (max-width:1280px){
+    .container{
+      max-width: 1280px;
+    }
+    .s_media img{
+      width: 60px;
+      height: 60px;
+  
+    
+    }
+   
+    
+  } */
+
+  /* @media (max-width:1024px){
+    .container{
+      max-width: 1024px;
+    }
+   
+    
+  } */
+  /* @media (max-width:768px){
+    .container{
+      max-width: 768px;
+    }
+    
+  } */
+  
+   /* @media (max-width:640px){
+    .container{
+      max-width: 640px;
+    }
+    
+    
+  }  */
+/* 
+
+  @media (max-width:475px){
+    .container{
+      width: 475px;
+    }
+   
+    
+    
+  } */
+  
