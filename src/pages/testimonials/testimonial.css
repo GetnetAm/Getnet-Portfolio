@@ -1,0 +1,179 @@
+.container{
+    width: 100%;
+    /* max-width: 1536px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+  }
+.personal-file{
+    margin: 15px;
+    height: 550px;
+    width: 400px;
+    padding: 5px;
+    background:  #e0e0e0;;
+    border-radius: 17px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 16px 16px 30px rgba(0, 0, 0, 0.2),
+    -16px -16px 30px rgba(255, 255, 255, 0.6);
+
+
+}
+.test-header{
+    text-align: center;
+}
+.test-header h2{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.test-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.personal-photo img{
+    height: 130px;
+    width: 140px;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+.personal-description{
+    margin-left: 25px;
+    width: 80%;
+    text-align: justify;
+    
+}
+.personal-description h3{
+    font-size: 25px;
+}
+.personal-description .jobs{
+    font-weight: bold;
+    font-size: 20px;
+    color: dodgerblue;
+}
+.personal-description p{
+    font-size: 18px;
+    line-height: 30px;
+    font-style: italic;
+}
+.personal-description h5{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+@media (max-width:1536px){
+    .container{
+      max-width: 1536px;
+    }
+  
+  }
+  @media (max-width:1280px){
+    .container{
+      max-width: 1280px;
+    }
+    
+.test-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.personal-photo img{
+    height: 130px;
+    width: 140px;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+.personal-description{
+    margin-left: 25px;
+    width: 80%;
+    text-align: justify;
+    
+}
+.personal-description h3{
+    font-size: 25px;
+}
+.personal-description .jobs{
+    font-weight: bold;
+    font-size: 20px;
+    color: dodgerblue;
+}
+.personal-description p{
+    font-size: 18px;
+    line-height: 30px;
+    font-style: italic;
+}
+.personal-description h5{
+    font-weight: bold;
+    font-size: 18px;
+}
+    
+   
+    
+  }
+  /* @media (max-width:1024px){
+    .container{
+      max-width: 1024px;
+    }
+   
+    
+  } */
+  /* @media (max-width:768px){
+    .container{
+      max-width: 768px;
+    }
+    
+  } */
+  
+   /* @media (max-width:640px){
+    .container{
+      max-width: 640px;
+    }
+ 
+  }  */
+  @media (max-width:475px){
+    .container{
+      width: 475px;
+    }
+    .personal-file{
+        height: 550px;
+        width: 350px;
+       
+    
+    }
+    
+.personal-photo img{
+    height: 120px;
+    width: 130px;
+ 
+}
+.personal-description{
+    margin-left: 25px;
+    width: 80%;
+    text-align: justify;
+    
+}
+.personal-description h3{
+    font-size: 22px;
+}
+.personal-description .jobs{
+
+    font-size: 18px;
+    
+}
+.personal-description p{
+    font-size: 16px;
+  
+}
+.personal-description h5{
+  
+    font-size: 16px;
+}
+    
+    
+    
+  }
+  
+  
