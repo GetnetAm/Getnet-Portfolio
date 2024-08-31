@@ -68,6 +68,15 @@ import port33 from "../../assests/images/portfolio/portfolio3/p1.JPG";
 import port41 from "../../assests/images/portfolio/portfolio3d/p1.JPG";
 import port42 from "../../assests/images/portfolio/portfolio3d/p2.JPG";
 
+
+import music1 from "../../assests/images/addisMusic/screen1.PNG";
+import music2 from "../../assests/images/addisMusic/screen2.PNG";
+import music3 from "../../assests/images/addisMusic/screen 3.PNG";
+import music4 from "../../assests/images/addisMusic/screen 4.PNG";
+
+
+
+
 export const portfolio_four = [
   {
     id: 1,
@@ -256,6 +265,31 @@ export const lms = [
   },
 ];
 
+export const addisMusic = [
+  {
+    id: 1,
+    name: "Addis Music ",
+    image: music1,
+    title: "Project Name: Addis Music Management Appp",
+    obje1:
+      "Project Objective: To develop a fully functional Music Player  website file management music create, update, delete, music list, music player, searching, sorting, filter and pagination task performed",
+    tech: " Technologies Used: React.js, Redux, Redux-toolkit, Redux-saga and Json Placeholder",
+  },
+  {
+    id: 2,
+    image: music2,
+  },
+  {
+    id: 3,
+    image: music3,
+  },
+  {
+    id: 4,
+    image: music4,
+  },
+  
+];
+
 export const cloth_city = [
   {
     id: 1,
@@ -436,6 +470,27 @@ function Portfoilo() {
               ))}
             </div>
           </div>
+
+          <div className="content">
+            <div className="slide-panel">
+              <Carousel>
+                {addisMusic.map((music) => (
+                  <img src={music.image} alt="" />
+                ))}
+              </Carousel>
+            </div>
+            <div className="description">
+              {addisMusic.map((music) => (
+                <div>
+                  <h3>{music.title}</h3>
+                  <p>{music.obje1}</p>
+                  <p>{music.tech}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+
         </div>
 
         <div className="p-headr-box">
