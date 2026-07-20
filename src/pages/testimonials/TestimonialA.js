@@ -24,9 +24,10 @@ function TestimonialA() {
             <h3>Fekade Derb</h3>
             <span className="jobs"> IT Manager in Niyala Insurance</span>
             <p>
-             She is working in Niyala Insurance as IT manager and She offers software projects to differnt companies
-             I have worked on many software projects with her 
-             she was my client, and she testified that I am an ethical employee who uses my time properly and does my work properly.
+             Provided high-level technical consultation and offloaded complex software tasks for senior IT professionals.
+
+          </p>
+    <p> Delivered scalable, optimized source code and architecture reviews to ensure project success and timely completion
             </p>
             <h5><Link to="mailto:fkadederb@gmail.com"className="link"><MdEmail className="s_icon" /> Hire it is Here Email </Link></h5>
        
