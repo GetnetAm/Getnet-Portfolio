@@ -1,6 +1,5 @@
 import React from "react";
 import "./testimonial.css";
-// import fekade from "../../assests/images/testimonials/fekade.jpg";
 import temesgen from "../../assests/images/testimonials/teme1.jpeg";
 import hayat from "../../assests/images/testimonials/hayat.jpeg";
 import { Link } from "react-router-dom";
