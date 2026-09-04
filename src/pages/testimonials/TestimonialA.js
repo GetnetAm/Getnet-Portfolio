@@ -22,7 +22,7 @@ function TestimonialA() {
           </div>
           <div className="personal-description">
             <h3>Temesgen Teshome</h3>
-            <span className="jobs"> Software Engineering || Junior Data Analytics || Cloud Engineer Trainer|| Junior Front End developer || Lecturer</span>
+            <span className="jobs"> Software Engineering ||Backend End developer ||University Lecturer</span>
             <p>
             When I was in university, he was my teacher and the Dean of the college It proves to me that I am good at my studies and that I complete the projects given to me properly
             </p>
@@ -39,7 +39,7 @@ function TestimonialA() {
           <div className="personal-description">
             <h3> Hayat Abdella</h3>
  
-            <span className="jobs"> Banking Special division section Manager at Moti engineering
+            <span className="jobs"> Team Leader Software Engineer Moti engineering
             Ethiopia </span>
             <p>
             When I was employed in Moti Engineering company, she was the boss, and she testified that I am an ethical employee who uses my time properly and does my work properly.
