@@ -1,11 +1,14 @@
 {
   "files": {
     "main.css": "/Getnet-Portfolio/static/css/main.1a0bc628.css",
-    "main.js": "/Getnet-Portfolio/static/js/main.943e294a.js",
+    "main.js": "/Getnet-Portfolio/static/js/main.ec9fdcd6.js",
     "static/media/cyber_cer.jpg": "/Getnet-Portfolio/static/media/cyber_cer.f2bcec21c49ab1238d43.jpg",
     "static/media/iot_cer.jpg": "/Getnet-Portfolio/static/media/iot_cer.bc8b3f6b5285ce35b0e7.jpg",
     "static/media/it_cer.jpg": "/Getnet-Portfolio/static/media/it_cer.f522d59d63e0238e041d.jpg",
     "static/media/react1.jpg": "/Getnet-Portfolio/static/media/react1.39c8db929dae7852f3f5.jpg",
+    "static/media/screen1.PNG": "/Getnet-Portfolio/static/media/screen1.bbf0ec147571ff38317b.PNG",
+    "static/media/screen 4.PNG": "/Getnet-Portfolio/static/media/screen 4.a300bdfb96e08eef63a0.PNG",
+    "static/media/screen2.PNG": "/Getnet-Portfolio/static/media/screen2.f256880ad578f7fce393.PNG",
     "static/media/gc.jpg": "/Getnet-Portfolio/static/media/gc.339d7c2481b69671ce3a.jpg",
     "static/media/s1.JPG": "/Getnet-Portfolio/static/media/s1.9a8a7068bcd67daee7ae.JPG",
     "static/media/lms21.JPG": "/Getnet-Portfolio/static/media/lms21.b85e5e768eace2897629.JPG",
@@ -27,7 +30,6 @@
     "static/media/in5.jpg": "/Getnet-Portfolio/static/media/in5.c53bcb39b73a326c5325.jpg",
     "static/media/lms5.JPG": "/Getnet-Portfolio/static/media/lms5.35ac7e4c8be63acf65bb.JPG",
     "static/media/c4.JPG": "/Getnet-Portfolio/static/media/c4.4ea21aea8c97433f26ab.JPG",
-    "static/media/fekade.jpg": "/Getnet-Portfolio/static/media/fekade.2a10531b567f099a98e7.jpg",
     "static/media/c7.JPG": "/Getnet-Portfolio/static/media/c7.a691a40d02737329d944.JPG",
     "static/media/c8.JPG": "/Getnet-Portfolio/static/media/c8.072eede7fd062dd7e5ad.JPG",
     "static/media/c2.JPG": "/Getnet-Portfolio/static/media/c2.83ceb5b04c8c88bd1777.JPG",
@@ -37,6 +39,7 @@
     "static/media/c3.JPG": "/Getnet-Portfolio/static/media/c3.8f76cf2e10d43b782565.JPG",
     "static/media/s5.JPG": "/Getnet-Portfolio/static/media/s5.13025909b52ef3aa5cd6.JPG",
     "static/media/p5.JPG": "/Getnet-Portfolio/static/media/p5.d71f19f806c7ecaa7cd6.JPG",
+    "static/media/screen 3.PNG": "/Getnet-Portfolio/static/media/screen 3.b7426ced9fd6093eee4f.PNG",
     "static/media/in4.jpg": "/Getnet-Portfolio/static/media/in4.517c67dac801816a0166.jpg",
     "static/media/s4.JPG": "/Getnet-Portfolio/static/media/s4.df56ecc081ea95ee8b57.JPG",
     "static/media/lms3.JPG": "/Getnet-Portfolio/static/media/lms3.c84e5e585b96dc413964.JPG",
@@ -55,10 +58,10 @@
     "static/media/phone1.JPG": "/Getnet-Portfolio/static/media/phone1.ff385036ad2dbef27d0b.JPG",
     "index.html": "/Getnet-Portfolio/index.html",
     "main.1a0bc628.css.map": "/Getnet-Portfolio/static/css/main.1a0bc628.css.map",
-    "main.943e294a.js.map": "/Getnet-Portfolio/static/js/main.943e294a.js.map"
+    "main.ec9fdcd6.js.map": "/Getnet-Portfolio/static/js/main.ec9fdcd6.js.map"
   },
   "entrypoints": [
     "static/css/main.1a0bc628.css",
-    "static/js/main.943e294a.js"
+    "static/js/main.ec9fdcd6.js"
   ]
 }
